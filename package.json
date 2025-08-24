@@ -1,0 +1,37 @@
+{
+  "name": "api-wrapper",
+  "version": "1.0.0",
+  "description": "Standardize API responses with consistent JSON structure",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "jest"
+  },
+  "keywords": [
+    "api",
+    "response",
+    "wrapper",
+    "express",
+    "fastify",
+    "middleware",
+    "standardize",
+    "json"
+  ],
+  "author": "Enerst Banda",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.11",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bed-com-37-20/api-wrapper.git"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
